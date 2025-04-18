@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur mon portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#informations">Informations personnelles</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projets">
+        <h2>Mes Projets</h2>
+        <div class="projet">
+            <h3>Developpeur web</h3>
+            <p>Je développe  des site internet de A à Z avec evidemment Mise à Jours régulière, Pour tout type de clientèle.</p>
+        </div>
+        <div class="projet">
+            <h3>Développeur Jeux Vidéos</h3>
+            <p>Je souhaite par la suite approfondir mes compétences et savoir faire afin de pouvoir également développer des jeux videos</p>
+        </div>
+        <!-- Ajoutez d'autres projets ici -->
+    </section>
+
+    <section id="competences">
+        <h2>Mes Compétences</h2>
+        <ul>
+            <li>Maitrise du language Html</li>
+            <li>Maitrise du Css</li>
+            <li>Maitrise de JavaScrypt</li>
+            <li>maitrise de Python</li>
+            <li> en cours de maitrise SQL</li>
+            <!-- Ajoutez d'autres compétences ici -->
+        </ul>
+    </section>
+
+    <section id="informations">
+        <h2>Informations Personnelles</h2>
+        <p>Bonjour, je me présente : je m'appelle Jimmy et je suis développeur web autodidacte. Récemment, j'ai ouvert ma micro-entreprise pour exercer ce que j'aime le plus : la programmation et le codage, afin de réaliser vos sites web !</p>
+    <p>Je ne suis pas encore un grand expert, mais je progresse chaque jour. J'ai déjà réalisé plusieurs projets, dont un site internet pour un client qui vend ses produits en ligne !</p>
+    </section>
+
+    <form action="https://formspree.io/f/mdkerbzy" method="POST" id="contact-form">
+        
+        
+        <label for="name">Nom :</label>
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <i class="fas fa-user"></i>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <label for="email">Email :</label>
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <i class="fas fa-envelope"></i>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2025 Jimmy Daran. Tous droits réservés.</p>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
